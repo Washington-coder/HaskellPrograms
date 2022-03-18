@@ -8,4 +8,5 @@ adiciona :: [Int] -> [Int] -> [Int]
 adiciona [] l = l
 adiciona (x:xs) l = adiciona xs (insere x l)
 
+ordena :: [Int] -> [Int]
 ordena l = adiciona l []
